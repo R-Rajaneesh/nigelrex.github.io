@@ -1,16 +1,12 @@
 import Head from "../src/components/head.jsx";
 import Header from "../src/components/header.jsx";
 import TYPEWRITER from "typewriter-effect";
-import ReactDOM from "react-dom";
 import React from "react";
 import {
-	BsChat,
-	BsCompass,
 	BsGithub,
 	BsTwitter,
 	BsYoutube,
 	BsReddit,
-	BsDiscord,
 	BsTwitch,
 } from "react-icons/bs";
 export default class Homepage extends React.Component {

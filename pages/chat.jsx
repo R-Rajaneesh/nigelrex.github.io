@@ -1,6 +1,5 @@
 import moment from "moment";
 import Head from "../src/components/head.jsx";
-import Script from "next/script";
 import React from "react";
 import io from "socket.io-client";
 const socket = io("http://localhost:3001");
