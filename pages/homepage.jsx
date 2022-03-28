@@ -1,5 +1,4 @@
 import Head from "../src/components/head.jsx";
-import Image from "next/image";
 import Header from "../src/components/header.jsx";
 import TYPEWRITER from "typewriter-effect";
 import ReactDOM from "react-dom";
