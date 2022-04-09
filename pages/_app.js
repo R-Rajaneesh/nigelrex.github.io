@@ -1,4 +1,4 @@
-import "/public/styles/globals.css";
+import "../styles/globals.css";
 
 /**
  * It takes a component and a pageProps object and returns a component

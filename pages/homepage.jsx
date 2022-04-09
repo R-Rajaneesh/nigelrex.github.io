@@ -1,7 +1,7 @@
 import Head from "../src/components/head.jsx";
 import Header from "../src/components/header.jsx";
 import TYPEWRITER from "typewriter-effect";
-import style from "../public/styles/Home.module.css"
+import style from "../styles/Home.module.css"
 import React from "react";
 import {
 	BsGithub,
