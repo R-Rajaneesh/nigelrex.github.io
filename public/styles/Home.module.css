@@ -1,33 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
-* {
-	box-sizing: border-box;
-	font-family: "Open Sans", sans-serif, "Casacadia Code",
-		"ABC Ginto Nord Trial", "Segoe UI Emoji", -apple-system,
-		BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell,
-		"Helvetica Neue";
-	font-weight: bolder;
-}
-html,
-body {
-	padding: 0;
-	margin: 0;
-	/* font-family:  "ABC Ginto Nord Trial",
-		-apple-system, BlinkMacSystemFont, "Segoe UI Emoji",
-		Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-		"Helvetica Neue", sans-serif; */
-	text-shadow: 5px 6px 9px black;
-	/* background-color: #2d2d30; */
-	background-image: url("../public/background.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	/* background-position: center; */
-	color: white;
-}
 
-a {
-	color: inherit;
-	text-decoration: none;
-}
+
+
 
 .center {
 	width: max-content;
@@ -37,22 +11,7 @@ a {
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
-header {
-	position: sticky;
-	display: block;
-	height: 50px;
-	width: 90%;
-	align-content: center;
-	background-color: rgba(137, 43, 226, 0.658);
-	/* backdrop-filter: blur(20.5px); */
-	border-radius: 5px;
-	margin: auto;
-	margin-top: auto;
-	padding-top: 2.5px;
-	box-shadow: 0px 6.7px 5.3px rgba(0, 0, 0, 0.07),
-		0px 22.3px 17.9px rgba(0, 0, 0, 0.053),
-		0px 100px 80px rgba(0, 0, 0, 0.013);
-}
+
 .button-group {
 	display: block;
 	height: 45px;
@@ -129,12 +88,6 @@ header {
 	.button-group {
 		height: 100%;
 	}
-	header {
-		height: 100%;
-		border-radius: 5px;
-		width: max-content;
-		background-color: blueviolet;
-	}
 }
 
 .pop-text {
@@ -195,7 +148,7 @@ header {
 #messages > li {
 	padding: 0.5rem 1rem;
 }
-span.bio {
+.bio {
 	position: fixed;
 	top: 120%;
 	height: 70px;
@@ -208,7 +161,7 @@ span.bio {
 	border-radius: 20px;
 	backdrop-filter: blur(20.5px);
 }
-span.bio button {
+.bio button {
 	position: relative;
 	display: inline-block;
 	margin: 10px 10px 10px 5px;
@@ -230,20 +183,20 @@ span.bio button {
 		1px 1px rgba(255, 255, 255, 0); */
 	text-shadow: 2px 2px gray;
 }
-span.bio button a {
+.bio button a {
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
 	top: 2px;
 	right: 1px;
 }
-span.bio button:first-child {
+.bio button:first-child {
 	margin: 10px 10px 10px 10px;
 }
-span.bio button:hover:first-child {
+.bio button:hover:first-child {
 	margin: 10px 10px 10px 10px;
 }
-span.bio button:hover {
+.bio button:hover {
 	position: relative;
 	display: inline-block;
 	margin: 10px 10px 10px 5px;

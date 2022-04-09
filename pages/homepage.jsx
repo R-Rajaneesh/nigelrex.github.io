@@ -1,6 +1,7 @@
 import Head from "../src/components/head.jsx";
 import Header from "../src/components/header.jsx";
 import TYPEWRITER from "typewriter-effect";
+import style from "../public/styles/Home.module.css"
 import React from "react";
 import {
 	BsGithub,
@@ -13,19 +14,22 @@ export default class Homepage extends React.Component {
 	render() {
 		return (
 			<>
-				<Head />
+				{/* <Head /> */}
 
 				<div style={{ width: "100%" }}>
 					{/* <Header /> */}
-					<div className="center" style={{ height: "50%" }}>
+					<div
+						className={style.center}
+						style={{ height: "50%" }}
+					>
 						<h1
-							className="center"
+							className={style.center}
 							style={{ fontSize: "40px" }}
 						>
 							Hallo 👋🏽 I am Nigelrex
 						</h1>
 						<p
-							className="center"
+							className={style.center}
 							style={{
 								top: "75%",
 								position: "fixed",
@@ -37,7 +41,7 @@ export default class Homepage extends React.Component {
 							I am a student and a backend developer.
 						</p>
 						<p
-							className="center"
+							className={style.center}
 							style={{
 								top: "90%",
 								position: "fixed",
@@ -65,7 +69,7 @@ export default class Homepage extends React.Component {
 							/>
 						</p>
 
-						<span className="bio">
+						<span className={style.bio}>
 							<button>
 								<a href="https://github.com/nigelrex">
 									<BsGithub size={40}></BsGithub>
