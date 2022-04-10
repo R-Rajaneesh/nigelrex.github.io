@@ -5,7 +5,7 @@ import "../styles/globals.css";
  * @returns A component that renders the component that was passed in as a prop.
  */
 function Nigelrex({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+	return <Component {...pageProps} />;
 }
 
 export default Nigelrex;

@@ -10,6 +10,7 @@ import {
 	BsReddit,
 	BsTwitch,
 } from "react-icons/bs";
+
 export default class Homepage extends React.Component {
 	render() {
 		return (
