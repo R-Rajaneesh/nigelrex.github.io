@@ -17,11 +17,13 @@ body {
 		"Helvetica Neue", sans-serif; */
 	text-shadow: 5px 6px 9px black;
 	/* background-color: #2d2d30; */
-	background-image: url("../public/background.jpg");
+	background-image: url("/background.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	/* background-position: center; */
 	color: white;
+	height: 100vh;
+	overflow: visible;
 }
 
 a {
@@ -54,4 +56,3 @@ header {
 		background-color: blueviolet;
 	}
 }
-
