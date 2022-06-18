@@ -21,32 +21,15 @@ export default class Homepage extends React.Component {
 					{/* <Header /> */}
 					<div
 						className={`${style.center}`}
-						style={{ height: "50%" }}
+						style={{
+							height: "50%",
+							backgroundColor: "#2d2d30",
+							borderRadius: "25px",
+							padding: "25px",
+							paddingTop: "250px"
+						}}
 					>
-						<h1
-							className={`${style.adjust}`}
-							style={{
-								fontSize: "40px",
-								width: "fit-content",
-								wordWrap: "break-word",
-							}}
-						>
-							Hallo 👋🏽 I am Nigelrex
-						</h1>
-						<p
-							className={`${style.adjust}`}
-							style={{
-								top: "50%",
-								position: "fixed",
-								marginLeft: "50%",
-								// paddingLeft:"50%",
-								width: "fit-content",
-								transform: "translate(-50%, -50%)",
-								fontSize: "20px",
-							}}
-						>
-							I am a student and a backend developer.
-						</p>
+
 						<p
 							className={style.center}
 							style={{
@@ -76,9 +59,9 @@ export default class Homepage extends React.Component {
 							/>
 						</p>
 
-						<span
-							className={style.bio}
-							style={{ marginLeft: "50%" }}
+						<div
+							className={`${style.bio}`}
+							style={{ marginLeft: "40%" }}
 						>
 							<button>
 								<a href="https://github.com/nigelrex">
@@ -86,7 +69,7 @@ export default class Homepage extends React.Component {
 								</a>
 							</button>
 							<button>
-								<a href="https://twitter.com/nigelrextaken">
+								<a href="https://twitter.com/rajaneesh__r">
 									<BsTwitter
 										size={40}
 										style={{
@@ -133,7 +116,7 @@ export default class Homepage extends React.Component {
 									></BsTwitch>
 								</a>
 							</button>
-						</span>
+						</div>
 					</div>
 				</div>
 			</>

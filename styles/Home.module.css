@@ -75,6 +75,12 @@
 	width: fit-content;
 	/* word-spacing: 0%; */
 }
+.midText {
+	word-wrap: break-word;
+	width: max-content;
+	/* margin-left: 50%; */
+	/* word-spacing: 0%; */
+}
 @media only screen and (max-width: 600px) {
 	.button-group button#LS {
 		display: block;
@@ -95,6 +101,12 @@
 		word-spacing: 0%;
 		width: fit-content;
 		margin-bottom: 50px;
+	}
+	.midText {
+		word-wrap: break-word;
+		width: max-content;
+		/* margin-left: 50%; */
+		/* word-spacing: 0%; */
 	}
 }
 
@@ -159,6 +171,7 @@
 .bio {
 	position: fixed;
 	top: 120%;
+	/* left: 50%; */
 	height: 70px;
 	width: max-content;
 	transform: translate(-50%, -50%);

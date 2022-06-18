@@ -5,11 +5,11 @@ class Head extends React.Component {
 	render() {
 		return (
 			<HeadNext>
-				<title>Nigelrex - Homepage</title>
+				<title>Rajaneesh.R - Homepage</title>
 				<meta charSet="UTF-8" />
 				<meta
 					name="description"
-					content="Nigelrex's Webpage"
+					content="Rajaneesh.R's Webpage"
 				/>
 				<meta
 					name="viewport"
